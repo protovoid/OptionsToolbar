@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6398687119D7198C00434F80 /* OTDismissViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398686F19D7198C00434F80 /* OTDismissViewController.m */; };
+		6398687219D7198C00434F80 /* OTDismissViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6398687019D7198C00434F80 /* OTDismissViewController.xib */; };
 		7116F6ED19410683006C8F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6EC19410683006C8F06 /* Foundation.framework */; };
 		7116F6EF19410683006C8F06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6EE19410683006C8F06 /* CoreGraphics.framework */; };
 		7116F6F119410683006C8F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6F019410683006C8F06 /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6398686E19D7198C00434F80 /* OTDismissViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTDismissViewController.h; sourceTree = "<group>"; };
+		6398686F19D7198C00434F80 /* OTDismissViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTDismissViewController.m; sourceTree = "<group>"; };
+		6398687019D7198C00434F80 /* OTDismissViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTDismissViewController.xib; sourceTree = "<group>"; };
 		7116F6E919410683006C8F06 /* OptionsToolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptionsToolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7116F6EC19410683006C8F06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7116F6EE19410683006C8F06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +87,9 @@
 		7116F6E019410683006C8F06 = {
 			isa = PBXGroup;
 			children = (
+				6398686E19D7198C00434F80 /* OTDismissViewController.h */,
+				6398686F19D7198C00434F80 /* OTDismissViewController.m */,
+				6398687019D7198C00434F80 /* OTDismissViewController.xib */,
 				7116F6F219410683006C8F06 /* OptionsToolbar */,
 				7116F71119410683006C8F06 /* OptionsToolbarTests */,
 				7116F6EB19410683006C8F06 /* Frameworks */,
@@ -231,6 +239,7 @@
 			files = (
 				7116F70519410683006C8F06 /* Images.xcassets in Resources */,
 				7116F6F719410683006C8F06 /* InfoPlist.strings in Resources */,
+				6398687219D7198C00434F80 /* OTDismissViewController.xib in Resources */,
 				7116F70019410683006C8F06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +261,7 @@
 			files = (
 				7116F6F919410683006C8F06 /* main.m in Sources */,
 				7116F6FD19410683006C8F06 /* OTAppDelegate.m in Sources */,
+				6398687119D7198C00434F80 /* OTDismissViewController.m in Sources */,
 				7116F70319410683006C8F06 /* OTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +467,7 @@
 				7116F71D19410683006C8F06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7116F71E19410683006C8F06 /* Build configuration list for PBXNativeTarget "OptionsToolbarTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +476,7 @@
 				7116F72019410683006C8F06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
